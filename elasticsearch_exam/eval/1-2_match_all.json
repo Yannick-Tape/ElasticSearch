@@ -1,0 +1,207 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "eval",
+        "_id": "D1SpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "68",
+          "Title": "",
+          "Review Text": "",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "EFSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "940",
+          "Age": "35",
+          "Title": "Yay, a long one!",
+          "Review Text": "I really love everything about this cardigan. the detailing at the bottom part of the arms adds a lot, the color is highly versatile, it is a thicker fabric so it keeps you warm, and my favorite part is that it is long. i like longer cardigans that you can easily pair with skinny jeans. the only drawback is there is no way to close this cardigan, likely if i end up purchasing this i will also purchase some sort of broach to pin it with or pair it with one of the belts i have from retailer to",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "12",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Sweaters"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "EVSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1024",
+          "Age": "37",
+          "Title": "Practically perfect",
+          "Review Text": "These are just as cute as pictured. they are generously sized made from soft denim. the denim has quite a bit of stretch. i ordered a size down from my normal size. i was surprised by all the extra threads in the pockets. they were still attached to the inside of the pockets. it just made them feel a little unfinished. these didn't impact the overall wear or appearance of the garment. the straps are adjustable with two buttons on the overalls and three strap-length adjustments on the straps. the",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "5",
+          "Division Name": "General",
+          "Department Name": "Bottoms",
+          "Class Name": "Jeans"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "ElSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "26",
+          "Title": "Versatile !",
+          "Review Text": "Love this shirt...got it in the \"blue\" but i will say the print is a very dark navy, almost black. i'm 130 lbs, 34d and the size 6 fit me fine. so i would disagree with other reviews that says it runs large. this is perfect to hide muffin tops with the slight swing style that has a little flair!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "E1SpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "30",
+          "Title": "",
+          "Review Text": "As other reviewers have said, this shirt runs a little short and wide. i usually wear petite, so the length didn't bother me. the sleeves fit me perfectly (which is rare in regular sizing), so others may find that they are too short and tight. to fix the boxiness issue, i just stitched 2 of the seams in the back together to give it more shape. since i bought the black pattern, my diy fix isn't too obvious but this may not work for the other colors. it needed a little work, but it was worth it fo",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "FFSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "25",
+          "Title": "Quirky staple",
+          "Review Text": "Let me just say the ski pattern is the cutest thing i've ever seen!! i literally bought it as soon as a saw it. i got a size 2. i'm usually a 0 or 00 in most blouses and shirts, but i wanted this to be a litter looser so i sized up. it's definitely not oversized even though i sized up. the fit is a little boxy and a little shorter in the front - really flattering in my opinion. the material is really nice and it can definitely be dressed up for work or dressed down with jeans and a chunky scarf!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "FVSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "28",
+          "Title": "Short and wide",
+          "Review Text": "First off the prints are gorgeous - i ordered three. i wanted to love them but unfortunately i found them short and wide. so back they go..",
+          "Rating": "3",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "FlSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "829",
+          "Age": "42",
+          "Title": "Too short :(",
+          "Review Text": "I didn't have any problems with the fit, i love the puffin pattern, the material is nice---it's just so short. i really haven't decided if the print is worth the awkwardness of the length, or if i'll just keep it and only wear it when it's cool enough outside to wear a tank under it, so i can avoid flashing my stomach every time i lift my arms. but, yeah...it stops right at my waist in front. way too short--stop making these great shirts so short, please.",
+          "Rating": "3",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "F1SpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "940",
+          "Age": "47",
+          "Title": "",
+          "Review Text": "Absolutely beautiful!! quality is worth it...i agree with other review and also sized down from large to medium for a more fitted look ....the color is gorgeous..lighter shade of brown...so thrilled material does not contain dreaded wool lol!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "17",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Sweaters"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "GFSpjpUB0cPkyCbtFUPN",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1094",
+          "Age": "35",
+          "Title": "",
+          "Review Text": "",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      }
+    ]
+  }
+}

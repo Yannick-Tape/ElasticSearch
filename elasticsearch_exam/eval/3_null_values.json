@@ -1,0 +1,54 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "null_values": {
+      "buckets": {
+        "Age": {
+          "doc_count": 0
+        },
+        "Class Name": {
+          "doc_count": 0
+        },
+        "Clothing ID": {
+          "doc_count": 0
+        },
+        "Department Name": {
+          "doc_count": 0
+        },
+        "Division Name": {
+          "doc_count": 0
+        },
+        "Positive Feedback Count": {
+          "doc_count": 0
+        },
+        "Rating": {
+          "doc_count": 0
+        },
+        "Recommended IND": {
+          "doc_count": 0
+        },
+        "Review Text": {
+          "doc_count": 0
+        },
+        "Title": {
+          "doc_count": 0
+        }
+      }
+    }
+  }
+}
