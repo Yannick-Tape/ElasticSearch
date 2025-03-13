@@ -1,0 +1,61 @@
+PUT /eval_new
+{
+  "mappings": {
+    "properties": {
+      "Clothing ID": { "type": "keyword" },
+      "Age": { "type": "integer" },
+      "Title": { "type": "text" },
+      "Review Text": { 
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+      "Rating": { "type": "integer" },
+      "Recommended IND": { "type": "integer" },
+      "Positive Feedback Count": { "type": "integer" },
+      "Division Name": { "type": "keyword" },
+      "Department Name": { "type": "keyword" },
+      "Class Name": { "type": "keyword" }
+    }
+  }
+}
+
+############################################
+
+POST _reindex
+{
+  "source": {
+    "index": "eval"
+},
+  "dest": {
+    "index": "eval_new"
+  }
+}
+
+
+
+# Vérifier que les données sont bien migrées
+
+GET /eval_new/_count
+
+
+# puisqu'on a créer eval_new je veux supprimer eval puis remmomer eval_new avec le nom eval et enfin supprimer eval_new. on reste donc avec un index 'eval' corrigé.
+
+DELETE /eval
+
+POST _reindex
+{
+  "source": {
+    "index": "eval_new"
+  },
+  "dest": {
+    "index": "eval"
+  }
+}
+
+DELETE /eval_new
+
+
+# on peut voit tous les index qui existe(nt)
+GET _cat/indices?v
+
+

@@ -1,0 +1,54 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "departments_per_division": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "General",
+          "doc_count": 13850,
+          "unique_departments": {
+            "value": 5
+          }
+        },
+        {
+          "key": "General Petite",
+          "doc_count": 8120,
+          "unique_departments": {
+            "value": 6
+          }
+        },
+        {
+          "key": "Initmates",
+          "doc_count": 1502,
+          "unique_departments": {
+            "value": 1
+          }
+        },
+        {
+          "key": "",
+          "doc_count": 14,
+          "unique_departments": {
+            "value": 1
+          }
+        }
+      ]
+    }
+  }
+}
